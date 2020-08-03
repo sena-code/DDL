@@ -17,7 +17,7 @@ CREATE TABLE aluno (
 
 );
 
-/*Criar a tabela de matérias*/
+/*Criar a tabela de matÃ©rias*/
 CREATE TABLE materia (
 	IdMateria INT IDENTITY PRIMARY KEY NOT NULL,
 	Titulo VARCHAR(50) NOT NULL
@@ -36,7 +36,7 @@ CREATE TABLE trabalho (
 /*Incluir a coluna esquecida: ' DATA DE ENTREGA '*/
 ALTER TABLE trabalho ADD DataEntrega DATETIME;
 
-/*Criar uma coluna de teste para excluí-la em seguida*/
+/*Criar uma coluna de teste para excluÃ­-la em seguida*/
 ALTER TABLE trabalho ADD teste INT;
 --Excluir a coluna teste 
 ALTER TABLE trabalho DROP COLUMN teste;
